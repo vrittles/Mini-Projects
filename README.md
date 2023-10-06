@@ -5,12 +5,6 @@ STAR [THIS Repository](https://github.com/SanghiNinja/Mini-Projects) if you find
 
 <h1 align="center"> Hacktoberfest 2023 </h1>
 
-<h3 align="center">
-    <a href="https://hacktoberfest.com/">
-        Link To HacktoberFest 2023
-    </a>
-</h3>
-
 <img width="1181" alt="Hacktoberfest image" src="https://hacktoberfest.com/_next/static/media/opengraph.e5fafe07.png">
 
 It's [Hacktoberfest month](https://hacktoberfest.com) and this is the **10th year**! 🥳
@@ -19,7 +13,7 @@ This repository is a beginner friendly repository for contributers who are just 
 
 ## Event details :
 
-- Hacktoberfest, presented by Appwrite, ILLA and Digital Ocean, is a **month-long** challenge. It happens every year in the month of October.
+- [Hacktoberfest](https://hacktoberfest.com/), presented by Appwrite, ILLA and Digital Ocean, is a **month-long** challenge. It happens every year in the month of October.
 - Hacktoberfest is open to everyone and it marks the celebration of Open Source. It's the one of the biggest Open Source event that encourages newbies to participate in Open Source and create their 1st meaningful PR.
 - Hacktoberfest® is **open to everyone** in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community.
 - All backgrounds and skill levels are encouraged to complete the challenge.
@@ -58,9 +52,8 @@ Submit PRs: Try and submit at least **_4 PRs_** and wait for it to be merged and
 
 ---
 
-<h3 align="center"> Whether it’s your first or fiftieth pull request, there’s always more to learn! So, keep up the hard work and grab this opportunity to participate in Hacktoberfest2023 and enter the world of Hacktoberfest </h3>
+**Whether it’s your first or fiftieth pull request, there’s always more to learn! So, keep up the hard work and grab this opportunity to participate in Hacktoberfest2023 and enter the world of Open Source and learn new things.**
 
----
 ---
 
 ```javascript
