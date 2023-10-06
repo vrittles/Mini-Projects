@@ -2,6 +2,7 @@
 This repository is a collection of many mini-projects on JavaScript. Add yours to the collection too. Create a Pull Request and we would add it to the repository.
 
 STAR [THIS Repository](https://github.com/SanghiNinja/Mini-Projects) if you find it interesting. 
+FORK [THIS Repostiory](https://github.com/SanghiNinja/Mini-Projects) and start working.
 
 <h1 align="center"> Hacktoberfest 2023 </h1>
 
