@@ -1,0 +1,43 @@
+import turtle
+
+
+#drawing the first circle
+turtle.pensize(7) #for thicker circles
+turtle.color('blue')
+turtle.circle(50)
+turtle.penup() #to ensure there is a separation between the circles
+
+#moving pen to the side
+turtle.forward(105)
+turtle.pendown()
+turtle.color('black')
+turtle.circle(50)
+
+turtle.penup()
+turtle.forward(105)
+turtle.color('red')
+turtle.pendown()
+turtle.circle(50)
+
+turtle.penup()
+turtle.right(250)
+turtle.forward(20)
+turtle.pendown()
+turtle.color('green')
+turtle.circle(50)
+
+turtle.penup()
+turtle.left(59)
+turtle.forward(150)
+
+turtle.pendown()
+turtle.color('yellow')
+turtle.circle(50)
+
+#finish off with some turtle text
+turtle.penup()
+turtle.color('black')
+turtle.right(10)
+turtle.forward(140)
+turtle.penup()
+turtle.write("The Olympics", font=("Arial",50,"bold")) #adding text, font and size
