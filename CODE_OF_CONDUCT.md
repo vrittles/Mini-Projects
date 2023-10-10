@@ -2,12 +2,13 @@
 
 ## Our Pledge <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Maracas.png" alt="Maracas" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" alt="Check Mark Button" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" />
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+We as members, contributors, and leaders pledge to make participation in our 
+community a harassment-free experience, including sexual-harassment, for 
+everyone, regardless of age, body size, visible or invisible disability, 
+ethnicity, sex characteristics, gender identity and expression, parental 
+status, basis of pregnancy, level of experience, education, reprisal/retention, 
+socio-economic status, national origin, personal appearance, race, color, 
+genetic information, religion, or sexual orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
@@ -21,95 +22,99 @@ community include:
 * Being respectful of differing opinions, viewpoints, and experiences
 * Giving and gracefully accepting constructive feedback
 * Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
+  and learning from experience.
 * Focusing on what is best not just for us as individuals, but for the
-  overall community
+  overall community.
+* Starting slow, accept fear, be ready to adapt, empower others.
 
 Examples of unacceptable behavior include:
 
 * The use of sexualized language or imagery, and sexual attention or
   advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
+* Trolling, insulting or derogatory comments, and personal or political attacks.
 * Public or private harassment
-* Publishing others' private information, such as a physical or email
+* Publishing others' confidential information, such as a physical or email
   address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+  professional environment.
 
 
 
 ## Enforcement Responsibilities <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Hamsa.png" alt="Hamsa" width="30" height="30" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="25" height="25" />
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+Community leaders manage clarifying and enforcing our standards of acceptable 
+behavior and will take proper and fair corrective action in response to any 
+behavior that they consider inappropriate, threatening, offensive, or harmful.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+Community leaders have the right and responsibility to remove, edit, or reject 
+comments, commits, code, wiki edits, issues, and other contributions that are 
+not aligned to this Code of Conduct, and will communicate reasons for moderation 
+decisions when proper.
 
 ## Scope <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" alt="Globe Showing Americas" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" alt="Globe Showing Asia-Australia" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Europe-Africa.png" alt="Globe Showing Europe-Africa" width="25" height="25" />
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+This Code of Conduct applies within all community spaces and applies when an 
+individual is officially speaking for the community in public spaces. 
+
+Examples of publicly speaking for our community include:
+
+* Using an official e-mail address, 
+* Posting via an official social media account, 
+* Or, acting as an appointed proxy at an online or offline event.
+
 
 ## Enforcement <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Police%20Car.png" alt="Oncoming Police Car" width="25" height="25" />
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-.
-All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior are encouraged 
+to be reported through proper channels for enforcement of the Code of Conduct. All 
+complaints are reviewed by the community leaders and investigated promptly and fairly.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+All community leaders are bound to respect the privacy and security of the reporter 
+of any incident.
+
 
 ## Enforcement Guidelines <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Police%20Officer.png" alt="Man Police Officer" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eye.png" alt="Eye" width="25" height="25" />
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Community leaders will follow these Community Impact Guidelines in deciding the 
+consequences for any action they consider in violation of this Code of Conduct:
 
 ### 1. Correction <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Cross%20Mark.png" alt="Cross Mark" width="25" height="25" />
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
+**Community Impact**: Use of inappropriate language or other behavior considered 
 unprofessional or unwelcome in the community.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+**Consequence**: A private, written warning from community leaders, supplying 
+clarity around the nature of the violation and an explanation of why the behavior 
+was inappropriate. If the investigation has found a violation of the Code of Conduct, 
+a public apology may be asked for by the violator, to not only the victim, but also 
+the community.
 
 ### 2. Warning <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Warning.png" alt="Warning" width="25" height="25" />
 
 **Community Impact**: A violation through a single incident or series
 of actions.
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+**Consequence**: A warning with consequences for continued behavior. No interaction with 
+the people involved, including unsolicited interaction with community leaders enforcing 
+the Code of Conduct, for a specified period. This includes avoiding interactions in 
+community spaces as well as external channels like social media; Violating these terms may 
+lead to a temporary or permanent ban.
 
 ### 3. Temporary Ban <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" />
 
 **Community Impact**: A serious violation of community standards, including
 sustained inappropriate behavior.
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+**Consequence**: A temporary ban from any sort of interaction or public communication with 
+the community for a specified period. No public or private interaction with the people 
+involved, including unsolicited interaction with those enforcing the Code of Conduct will 
+be tolerated during this period; Violating these terms may lead to a permanent ban.
 
 ### 4. Permanent Ban <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" /> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Thumbs%20Down.png" alt="Thumbs Down" width="25" height="25" />
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+**Community Impact**: Proving a pattern of violation of community standards, including 
+sustained inappropriate behavior, harassment of an individual, or aggression toward or 
+disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
 the community.
