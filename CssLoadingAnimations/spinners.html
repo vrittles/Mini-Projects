@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spinner</title>
+    <style>
+      :root {
+        --time: 800ms;
+      }
+      body {
+        background: black;
+        color: magenta;
+        margin: 0;
+        font-family: Consolas, Source Sans Pro, Fira Code;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      .container {
+        --gap: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--gap);
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        padding-top: 3rem;
+        row-gap: calc(var(--gap) + 1.5rem);
+      }
+      .loaders {
+        position: relative;
+      }
+      /* general styling */
+      :is(.container > .loaders > span) {
+        --width: 30px;
+        width: var(--width);
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        left: 30%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        display: block;
+        border-radius: 50%;
+        background: transparent;
+        border: 4px solid transparent;
+        border-right: 4px solid #86ce12;
+        border-bottom: 4px solid #86ce12;
+        /* animation: load 900ms ease infinite; */
+      }
+
+      /* ease */
+      :is(.loaders:nth-child(1) > span) {
+        animation: load var(--time) ease infinite;
+      }
+      /* ease-in */
+      :is(.loaders:nth-child(2) > span) {
+        animation: load var(--time) ease-in infinite;
+      }
+      /* ease-out */
+      :is(.loaders:nth-child(3) > span) {
+        animation: load var(--time) ease-out infinite;
+      }
+      /* ease-both */
+      :is(.loaders:nth-child(4) > span) {
+        animation: load var(--time) ease-in-out infinite;
+      }
+      /* liner */
+      :is(.loaders:nth-child(5) > span) {
+        animation: load var(--time) linear infinite;
+      }
+      /* multi-color */
+      :is(.loaders:nth-child(6) > span) {
+        animation: load var(--time) linear infinite;
+        border-right: 4px solid #07c2cf;
+        border-bottom: 4px solid #a50ce2;
+      }
+
+      /* custom scaling */
+      :is(.loaders:nth-child(n + 7):not(:nth-child(n + 11)) > span) {
+        border: none;
+        left: 50%;
+        margin-top: 0.9rem;
+        width: calc(var(--width) + 5px);
+        background: rgb(68, 219, 8);
+        border: 1px solid rgb(68, 219, 8);
+        overflow: hidden;
+      }
+      /* multi-bordered-spinner-linear */
+      :is(.loaders:nth-child(11) > span) {
+        border-block: 4px solid #b41515;
+        border-inline: 4px solid #fccf09;
+        animation: load var(--time) linear infinite;
+      }
+      /* multi-bordered-spinner-ease */
+      :is(.loaders:nth-child(12) > span) {
+        border-block: 4px solid #b41515;
+        border-inline: 4px solid #fccf09;
+        animation: load var(--time) ease infinite;
+      }
+      /* multi-bordered-spinner-ease-in */
+      :is(.loaders:nth-child(13) > span) {
+        border-block: 4px solid #b41515;
+        border-inline: 4px solid #fccf09;
+        animation: load var(--time) ease-in infinite;
+      }
+      /* multi-bordered-spinner-ease-out */
+      :is(.loaders:nth-child(14) > span) {
+        border-block: 4px solid #b41515;
+        border-inline: 4px solid #fccf09;
+        animation: load var(--time) ease-out infinite;
+      }
+      /* multi-bordered-spinner-ease-out */
+      :is(.loaders:nth-child(15) > span) {
+        border-block: 4px solid #b41515;
+        border-inline: 4px solid #fccf09;
+        animation: load var(--time) ease-in-out infinite;
+      }
+      /* multi-bordered-spinner-ease-out */
+      :is(.loaders:nth-child(n + 16):not(:nth-child(n + 21)) > span) {
+        border: 4px solid red;
+        margin-top: 0.9rem;
+        left: 50%;
+      }
+      .loaders:nth-child(n + 16):not(:nth-child(n + 21)) > span::before {
+        border: 4px solid transparent;
+        border-right: 4px solid white;
+        position: absolute;
+        content: "";
+        width: 100%;
+        aspect-ratio: inherit;
+        background: transparent;
+        top: 50%;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: roller var(--time) linear infinite;
+      }
+      /* antagonist loader */
+      :is(.loaders:nth-child(n + 21)) {
+        position: relative;
+        --ease: ease;
+        --ease-2: ease-in;
+        --ease-3: ease-out;
+        --ease-4: ease-in-out;
+      }
+      :is(.loaders:nth-child(n + 21) > span) {
+        content: "";
+        border: 4px solid transparent;
+        border-inline: 4px solid brown;
+        position: absolute;
+        /* width = parent-width - (4px * 2)[borders]   */
+        width: 35px;
+        margin-top: 0.9rem;
+        aspect-ratio: 1/ 1;
+        background: transparent;
+        bottom: 0%;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: roller var(--time) linear infinite;
+      }
+      .loaders:nth-child(n + 21) > span:nth-child(2) {
+        width: calc(35px - 8px);
+        border-inline: 4px solid white;
+        animation: antagonist var(--time) linear infinite;
+      }
+      /* antagonist-ease */
+      :is(.loaders:nth-child(22) span:empty) {
+        animation-timing-function: var(--ease);
+      }
+      /* antagonist-ease-in */
+      :is(.loaders:nth-child(23) span:empty) {
+        animation-timing-function: var(--ease2);
+      }
+      /* antagonist-ease-out */
+      :is(.loaders:nth-child(24) span:empty) {
+        animation-timing-function: var(--ease3);
+      }
+      /* antagonist-ease-both */
+      :is(.loaders:nth-child(25) span:empty) {
+        animation-timing-function: var(--ease4);
+      }
+
+      /* spans with pseudo classes */
+      /* -avoid :is selector here- scalae inner ease*/
+      .loaders:nth-child(n + 7):not(:nth-child(n + 11)) > span:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        aspect-ratio: inherit;
+        background: transparent;
+        top: 50%;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        animation: scale var(--time) linear infinite;
+      }
+      /* -avoid :is selector here- scalae inner ease-in*/
+      .loaders:nth-child(8) > span:before {
+        animation-timing-function: ease-in !important;
+      }
+      /* -avoid :is selector here- scalae inner ease-in*/
+      .loaders:nth-child(9) > span:before {
+        animation-timing-function: ease-out !important;
+      }
+      /* -avoid :is selector here- scalae inner ease-in*/
+      .loaders:nth-child(10) > span:before {
+        animation-timing-function: ease-in-out !important;
+      }
+      /* rolling span -ease */
+      .loaders:nth-child(17) > span::before {
+        animation-timing-function: ease !important;
+      }
+      /* rolling span -ease-in */
+      .loaders:nth-child(18) > span::before {
+        animation-timing-function: ease-in !important;
+      }
+      /* rolling span -ease-out */
+      .loaders:nth-child(19) > span::before {
+        animation-timing-function: ease-out !important;
+      }
+      /* rolling span -ease-out */
+      .loaders:nth-child(20) > span::before {
+        /* animation: roller var(--time) ease-in-out infinite; */
+        animation-timing-function: ease-in-out !important;
+      }
+      /* end spans with pseudo classes */
+      /* animations call all */
+      @keyframes load {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes scale {
+        from {
+          transform: translate(-50%, -50%) scale(0);
+          background: #a50598;
+        }
+        to {
+          transform: translate(-50%, -50%) scale(1);
+          background: #a50598;
+        }
+      }
+      @keyframes roller {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+      /* antagonist */
+      @keyframes antagonist {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(-360deg);
+        }
+      }
+      nav {
+        padding: 1rem;
+        text-align: center;
+        background: transparent;
+        box-shadow: 0 0 6px #b41515;
+        font-weight: 600;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>Spinners</nav>
+    <div class="container">
+      <div class="loaders">
+        <h3>Ease</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Ease-in</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Ease-out</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Ease-both</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Linear</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>multiple</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Scale</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Scale-in</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Scale-out</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Scale-both</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Bord-linear</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Bord-ease</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Bord ease-in</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Bord ease-out</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>Bord ease-both</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>rolling</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>roll-ease</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>roll ease-in</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>roll ease-out</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>roll ease-both</h3>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>antagonist</h3>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>antagonist-ease</h3>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>antagonist-easein</h3>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>antagonist-easeout</h3>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="loaders">
+        <h3>antagonist-easeboth</h3>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- :nth-child(n+8):not(:nth-child(n+11)) -->
