@@ -1,0 +1,154 @@
+body{
+
+    background: rgb(148,187,233);
+    background: linear-gradient(0deg, rgba(148,187,233,1) 29%, rgba(255,164,241,1) 77%);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+}
+#heading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding-top: 50px;
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 27%, rgba(148,187,233,1) 86%);
+    margin-left: 530px;
+    margin-right: 530px;
+    border-width: 4px;
+    border-style: solid;
+    
+}
+
+#H1{
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: underline;    
+}
+#H11{
+    font-size: 50px;
+    font-weight: 900;
+    
+
+}
+#POINT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding-bottom: 10px;
+    
+}
+
+
+
+#BATAN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1 1 0;
+    
+    
+    
+}
+#play1{
+    padding-left:40px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-right:40px ;
+    background: rgb(148,187,233);
+    background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 37%);
+    border-radius: 5%;
+    border-width: 4px;
+    font-weight: 600;
+}
+
+#play2{
+    padding-left:40px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-right:40px ;
+    
+    background: rgb(148,187,233);
+    background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 37%);
+    border-radius: 5%;
+    border-width: 4px;
+    font-weight: 600;
+}
+
+#rst{
+    padding-left:52px ;
+    padding-top:18px ;
+    padding-bottom:18px ;
+    padding-right:52px ;
+    background: rgb(148,187,233);
+    background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(252,90,118,1) 1%);
+    border-radius: 5%;
+    border-width: 4px;
+    font-weight: 600;
+    margin-left:8px ;
+    margin-right:8px ;
+}
+
+#all{
+    background: rgb(148,187,233);
+    background: linear-gradient(0deg, rgba(148,187,233,1) 27%, rgba(238,174,202,1) 86%);
+    margin-left: 530px;
+    margin-right: 530px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#P{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#ptsSel{
+    padding-left:5px ;
+    padding-top:2px ;
+    padding-bottom:2px ;
+    padding-right:5px ;
+    border-style:solid ;
+    border-width:2px ;
+    background-color:aquamarine ;
+}
+
+#Qbtn{
+    
+        font-size: large;
+        font-weight: 800;
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        background-color: antiquewhite;
+        transition: all 1s;
+        
+}
+    
+#Qbtn:hover{
+        background-color: gold;
+        color:black;
+        box-shadow: 0px 7px 1px 2px black;
+        transform:translateY(-10px);
+        cursor: pointer;
+}
+
+#Qot{
+    font-size: 30px;
+    font-weight: 800;
+    
+    height: 100px;
+    width: 1500px;
+    margin-top: 10px;
+}
+
+#fame{
+    font-size: 25px;
+    font-weight: 800;
+}

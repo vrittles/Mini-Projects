@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCORE KEEPER</title>
+    <link rel="stylesheet" href="SCR.css">
+    <style>
+        .winner{
+            color:green;
+        }
+
+        .loser{
+            color:red;
+        }
+    </style>
+
+</head>
+<body id="BODY">
+    <div id="heading">
+        <h1 id="H1">SCORE KEEPER</h1>
+        <h1 id = "H11"><span id="pl1">0</span> to <span id="pl2">0</span></h1>
+        <h2>Use the buttons below for scores</h2>
+        
+    </div>
+    <div id="all">
+        <div id="POINT">
+        
+            <label for="PtSelect"><span id = P>Points:</span></label>
+            <select name="pts" id="ptsSel">
+            
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+    
+        <div id="BATAN">
+        <button id="play1">+1 Player 1</button>
+        <button id="rst">Reset</button>
+        <button id="play2">+1 Player 2</button>
+        
+        </div>
+    
+    
+    
+    </div>
+    <span id ="fame">Famous Quotes :-</span>
+
+    <div id="Qot">
+    </div>
+    <div>
+        <br>
+        <button onclick="newQuote()" id="Qbtn">New Quote</button>
+    </div>
+
+
+    <script src="scr.js"></script>
+    
+</body>
+</html>
