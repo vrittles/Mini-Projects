@@ -1,0 +1,73 @@
+class Vehicle:
+    def __init__(self, reg_number, owner_name, make, model):
+        self.reg_number = reg_number
+        self.owner_name = owner_name
+        self.make = make
+        self.model = model
+
+class VehicleRegistrationSystem:
+    def __init__(self):
+        self.vehicles = []
+
+    def register_vehicle(self, reg_number, owner_name, make, model):
+        vehicle = Vehicle(reg_number, owner_name, make, model)
+        self.vehicles.append(vehicle)
+        print(f"Vehicle {reg_number} registered successfully.")
+
+    def view_registered_vehicles(self):
+        if not self.vehicles:
+            print("No vehicles registered yet.")
+        else:
+            print("Registered Vehicles:")
+            for vehicle in self.vehicles:
+                print(f"Registration Number: {vehicle.reg_number}")
+                print(f"Owner Name: {vehicle.owner_name}")
+                print(f"Make: {vehicle.make}")
+                print(f"Model: {vehicle.model}")
+                print()
+
+    def search_vehicle_by_reg_number(self, reg_number):
+        for vehicle in self.vehicles:
+            if vehicle.reg_number == reg_number:
+                print(f"Vehicle Found:")
+                print(f"Registration Number: {vehicle.reg_number}")
+                print(f"Owner Name: {vehicle.owner_name}")
+                print(f"Make: {vehicle.make}")
+                print(f"Model: {vehicle.model}")
+                return
+        print(f"No vehicle found with registration number: {reg_number}")
+
+def main():
+    vehicle_system = VehicleRegistrationSystem()
+    
+    while True:
+        print("Vehicle Registration System")
+        print("1. Register a Vehicle")
+        print("2. View Registered Vehicles")
+        print("3. Search Vehicle by Registration Number")
+        print("4. Quit")
+        
+        choice = input("Enter your choice: ")
+        
+        if choice == '1':
+            reg_number = input("Enter Registration Number: ")
+            owner_name = input("Enter Owner Name: ")
+            make = input("Enter Make: ")
+            model = input("Enter Model: ")
+            vehicle_system.register_vehicle(reg_number, owner_name, make, model)
+        
+        elif choice == '2':
+            vehicle_system.view_registered_vehicles()
+        
+        elif choice == '3':
+            reg_number = input("Enter Registration Number to search: ")
+            vehicle_system.search_vehicle_by_reg_number(reg_number)
+        
+        elif choice == '4':
+            break
+        
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
