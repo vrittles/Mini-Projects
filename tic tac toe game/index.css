@@ -1,0 +1,82 @@
+nav h1{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding-left: 6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    padding-left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+     padding-left: 4vw;
+    padding-right: 4vw; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+    text-decoration: none;
+ } 
+ nav ul li{
+    padding-left: 4vw;
+    padding-right: 4vw;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+    list-style: none;
+    /* text-decoration: none; */
+ } 
+ nav ul li a{
+cursor: pointer;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+} 
+ footer{
+     margin-top: 1vh; 
+     background-color: purple;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 40px;
+     /* margin-top: 700px;  */
+     border-radius: 20px; 
+     padding-top: 15px;  
+ }  
+ img{
+    width: 60vw;
+    height: 70vh;
+    margin-left: 20vw;
+    margin-bottom: 4vh;
+    margin-top: 5vh;
+    border-radius: 50px;
+  }  
+ main{
+    background-color: blanchedalmond;
+}  
+body{
+    background-size: cover;
+}
+@media (max-width:358px) {
+    nav h1{
+        width: 50vw;
+        font-size: 10px;
+    }
+    nav ul {
+        padding: 1vw;
+        font-size: 7px;
+    }
+}
