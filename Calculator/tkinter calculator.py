@@ -1,4 +1,5 @@
 import parser
+import math
 from tkinter import *
 root=Tk()
 root.title("Calculator")
@@ -44,6 +45,16 @@ def calculate():
         clear_all()
         display.insert(0,"error")
 
+# Adding factorial function to the calculator        
+def factorial():        
+    entire_string=display.get()
+    try:
+        result=math.factorial(int(entire_string))
+        clear_all()
+        display.insert(0,result)
+    except Exception:
+        clear_all()
+        display.insert(0,"Error")
 
 
 
@@ -77,10 +88,7 @@ Button(root,text=")",command=lambda :get_operation(')')).grid(row=2,column=5)
 Button(root,text="exp",command=lambda :get_operation('**')).grid(row=3,column=5)
 Button(root,text="x!").grid(row=4,column=5)
 Button(root,text="^2",command=lambda :get_operation('**2')).grid(row=5,column=5)
-
-
-
-
+Button(root,text="x!",command=lambda :factorial()).grid(row=4,column=5) 
 
 
 
